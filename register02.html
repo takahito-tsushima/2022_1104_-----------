@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selfy - register02</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+<!-- スライダーの作り方はこちらのページからのコピペ
+    https://coco-factory.jp/ugokuweb/move01/6-1-6/ -->
+
+<!-- Slickのオンラインファイル -->
+<!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"> -->
+
+<!-- Slickのローカルファイル -->
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+
+</head>
+
+<body>
+    <section>
+        <div>
+            <h1>アカウント作成【2】</h1>
+            <h2>写真登録</h2>
+            <p>こんな写真がGOOD！</p>
+        </div>
+
+        <ul class="photo-slider">
+            <li><img src="img/photo1.jpg" alt=""></li>
+            <li><img src="img/photo2.jpg" alt=""></li>
+            <li><img src="img/photo1.jpg" alt=""></li>
+            <li><img src="img/photo2.jpg" alt=""></li>
+            <li><img src="img/photo1.jpg" alt=""></li>
+            <li><img src="img/photo2.jpg" alt=""></li>
+        </ul>
+
+<!-- カメラを起動して写真を撮影する方法はこちらのページよりコピペ
+    https://into-the-program.com/html-activate-phone-camera-take-a-picture/ -->
+
+
+    <p>写真を撮影してアップロードする</p>
+        <Ul>
+            <li><p>ONの自分（仕事や外出）</p></li>
+            <li><input id="upload" type="file" name="image" accept="image/*" capture="camera"></li>
+            <li><p>OFFの自分（プライベート）</p></li>
+            <li><input id="upload" type="file" name="image" accept="image/*" capture="camera"></li>
+        </Ul>
+            
+            
+        
+
+    </section>
+
+    <a href="#" target="_blank">確認</a>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- Slickのオンラインファイル -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
+
+<!-- Slickのローカルファイル -->
+    <script type="text/javascript" src="js/slick.min.js"></script>
+
+    <script src="js/selfy.js"></script>
+
+
+</body>
+
+</html>
